@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">469412287743-ammn7u4qg5br1q2d56b2d655sn82trqd.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">469412287743</string>
+    <string name="google_api_key" translatable="false">AIzaSyApV15GqJhaKQZBaNfiaV3WmUY_o9QSYzw</string>
+    <string name="google_app_id" translatable="false">1:469412287743:android:1553a01aac569b0118e8ca</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyApV15GqJhaKQZBaNfiaV3WmUY_o9QSYzw</string>
+    <string name="google_storage_bucket" translatable="false">afro-melodies.appspot.com</string>
+    <string name="project_id" translatable="false">afro-melodies</string>
+</resources>

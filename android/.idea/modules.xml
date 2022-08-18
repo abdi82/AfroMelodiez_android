@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/music_stream.iml" filepath="$PROJECT_DIR$/.idea/modules/music_stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-874255324/music_stream.@react-native-async-storage_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-874255324/music_stream.@react-native-async-storage_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-564235204/music_stream.@react-native-community_geolocation.iml" filepath="$PROJECT_DIR$/.idea/modules/-564235204/music_stream.@react-native-community_geolocation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1172963452/music_stream.@react-native-community_netinfo.iml" filepath="$PROJECT_DIR$/.idea/modules/-1172963452/music_stream.@react-native-community_netinfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/music_stream.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/music_stream.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-605157414/music_stream.invertase_react-native-apple-authentication.iml" filepath="$PROJECT_DIR$/.idea/modules/-605157414/music_stream.invertase_react-native-apple-authentication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-874255324/music_stream.react-native-async-storage_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-874255324/music_stream.react-native-async-storage_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/35761601/music_stream.react-native-blur.iml" filepath="$PROJECT_DIR$/.idea/modules/35761601/music_stream.react-native-blur.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1627568682/music_stream.react-native-clear-app-cache.iml" filepath="$PROJECT_DIR$/.idea/modules/1627568682/music_stream.react-native-clear-app-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1172963452/music_stream.react-native-community_netinfo.iml" filepath="$PROJECT_DIR$/.idea/modules/-1172963452/music_stream.react-native-community_netinfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-759568529/music_stream.react-native-fbsdk.iml" filepath="$PROJECT_DIR$/.idea/modules/-759568529/music_stream.react-native-fbsdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/156397466/music_stream.react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/156397466/music_stream.react-native-firebase_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-753727196/music_stream.react-native-firebase_firestore.iml" filepath="$PROJECT_DIR$/.idea/modules/-753727196/music_stream.react-native-firebase_firestore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-835668942/music_stream.react-native-firebase_messaging.iml" filepath="$PROJECT_DIR$/.idea/modules/-835668942/music_stream.react-native-firebase_messaging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-44627596/music_stream.react-native-firebase_storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-44627596/music_stream.react-native-firebase_storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1341888700/music_stream.react-native-fs.iml" filepath="$PROJECT_DIR$/.idea/modules/1341888700/music_stream.react-native-fs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2073237239/music_stream.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/2073237239/music_stream.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-514897348/music_stream.react-native-google-signin_google-signin.iml" filepath="$PROJECT_DIR$/.idea/modules/-514897348/music_stream.react-native-google-signin_google-signin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1255628945/music_stream.react-native-image-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-1255628945/music_stream.react-native-image-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-808452180/music_stream.react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/-808452180/music_stream.react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1675991390/music_stream.react-native-pager-view.iml" filepath="$PROJECT_DIR$/.idea/modules/1675991390/music_stream.react-native-pager-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/167529888/music_stream.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/167529888/music_stream.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1846425016/music_stream.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/1846425016/music_stream.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1436495073/music_stream.react-native-sensors.iml" filepath="$PROJECT_DIR$/.idea/modules/-1436495073/music_stream.react-native-sensors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1419434808/music_stream.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/1419434808/music_stream.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1797519150/music_stream.react-native-track-player.iml" filepath="$PROJECT_DIR$/.idea/modules/-1797519150/music_stream.react-native-track-player.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/369638463/music_stream.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/369638463/music_stream.react-native-vector-icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2092599532/music_stream.react-native-video.iml" filepath="$PROJECT_DIR$/.idea/modules/2092599532/music_stream.react-native-video.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1880103373/music_stream.react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/1880103373/music_stream.react-native-webview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1659807240/music_stream.rn-fetch-blob.iml" filepath="$PROJECT_DIR$/.idea/modules/1659807240/music_stream.rn-fetch-blob.iml" />
+    </modules>
+  </component>
+</project>

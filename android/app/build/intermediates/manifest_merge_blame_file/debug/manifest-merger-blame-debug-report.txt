@@ -1,0 +1,566 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.music_stream"
+4    android:versionCode="13"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/debug/AndroidManifest.xml:4:5-77
+11-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/debug/AndroidManifest.xml:4:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:3:4-66
+12-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:3:21-63
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:4:4-79
+13-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:4:21-76
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:5:4-80
+14-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:5:21-77
+15    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+15-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:6:4-87
+15-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:6:21-84
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[com.facebook.flipper:flipper:0.99.0] /Users/webastral/.gradle/caches/transforms-3/09899a43fb7598ca72631e69f83c86b5/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
+16-->[com.facebook.flipper:flipper:0.99.0] /Users/webastral/.gradle/caches/transforms-3/09899a43fb7598ca72631e69f83c86b5/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[:react-native-community_netinfo] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+17-->[:react-native-community_netinfo] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+18-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Required to access Google Play Licensing -->
+19-->[:react-native-track-player] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-77
+19-->[:react-native-track-player] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-74
+20    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+20-->[:rn-fetch-blob] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-73
+20-->[:rn-fetch-blob] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-70
+21    <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+21-->[com.facebook.android:facebook-core:14.1.0] /Users/webastral/.gradle/caches/transforms-3/99c879db0a5a75065db1289f6a414476/transformed/jetified-facebook-core-14.1.0/AndroidManifest.xml:28:5-79
+21-->[com.facebook.android:facebook-core:14.1.0] /Users/webastral/.gradle/caches/transforms-3/99c879db0a5a75065db1289f6a414476/transformed/jetified-facebook-core-14.1.0/AndroidManifest.xml:28:22-76
+22    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- for android -->
+22-->[com.google.firebase:firebase-messaging:23.0.0] /Users/webastral/.gradle/caches/transforms-3/635f3c0a469011bb25ada98ed2463070/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:5-82
+22-->[com.google.firebase:firebase-messaging:23.0.0] /Users/webastral/.gradle/caches/transforms-3/635f3c0a469011bb25ada98ed2463070/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:22-79
+23    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+24    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+25    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+26    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+27    <!-- for Samsung -->
+28    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+28-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+28-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+29    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+29-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+29-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+30    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+30-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+30-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+31    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+31-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+31-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+32    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+32-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+32-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+33    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+33-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+33-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+34    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+34-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+34-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+35    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+35-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+35-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+36    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+36-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+36-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+37    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+37-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+37-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+38    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+38-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+38-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+39    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+39-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+39-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+40    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+40-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+40-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+41    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+41-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+41-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+42    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+43    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/webastral/.gradle/caches/transforms-3/3461fa319cf3b171be19a3fba2325dd8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+44    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+44-->[com.android.installreferrer:installreferrer:1.0] /Users/webastral/.gradle/caches/transforms-3/e50fef0947f6b0d3802f2f2e3f52cc6d/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+44-->[com.android.installreferrer:installreferrer:1.0] /Users/webastral/.gradle/caches/transforms-3/e50fef0947f6b0d3802f2f2e3f52cc6d/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+45
+46    <application
+46-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:7:5-46:19
+47        android:name="com.music_stream.MainApplication"
+47-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:8:7-38
+48        android:allowBackup="true"
+48-->[:react-native-clear-app-cache] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-clear-app-cache/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-35
+49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+49-->[androidx.core:core:1.6.0] /Users/webastral/.gradle/caches/transforms-3/4d8ec8cb0a0e8d93de09cff5d5b24561/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+50        android:debuggable="true"
+51        android:icon="@mipmap/ic_launcher"
+51-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:10:7-41
+52        android:label="@string/app_name"
+52-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:9:7-39
+53        android:requestLegacyExternalStorage="true"
+53-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:14:7-50
+54        android:supportsRtl="true"
+54-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:13:7-33
+55        android:theme="@style/AppTheme"
+55-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:11:7-38
+56        android:usesCleartextTraffic="true" >
+56-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:12:7-42
+57        <activity
+57-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:15:7-27:18
+58            android:name="com.music_stream.MainActivity"
+58-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:16:9-37
+59            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+59-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:18:9-86
+60            android:label="@string/app_name"
+60-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:17:9-41
+61            android:launchMode="singleTask"
+61-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:19:9-40
+62            android:windowSoftInputMode="stateAlwaysHidden|adjustNothing" >
+62-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:20:9-70
+63            <intent-filter>
+63-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:22:9-26:25
+64                <action android:name="android.intent.action.MAIN" />
+64-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:23:13-65
+64-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:23:21-62
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:24:13-73
+66-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:24:23-70
+67
+68                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+68-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:25:13-77
+68-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:25:21-75
+69            </intent-filter>
+70        </activity>
+71        <activity
+71-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:28:10-31:44
+72            android:name="com.facebook.FacebookActivity"
+72-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:28:20-64
+73            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+73-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:29:9-109
+74            android:label="@string/app_name"
+74-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:31:9-41
+75            android:theme="@style/com_facebook_activity_theme" />
+75-->[com.facebook.android:facebook-common:14.1.0] /Users/webastral/.gradle/caches/transforms-3/eecc98e37626abbc98240690c01b5d39/transformed/jetified-facebook-common-14.1.0/AndroidManifest.xml:33:13-63
+76        <activity
+76-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:32:5-43:16
+77            android:name="com.facebook.CustomTabActivity"
+77-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:33:9-54
+78            android:exported="true" >
+78-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:34:9-32
+79            <intent-filter>
+79-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:35:9-39:25
+80                <action android:name="android.intent.action.VIEW" />
+80-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:36:13-65
+80-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:36:21-62
+81
+82                <category android:name="android.intent.category.DEFAULT" />
+82-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:37:13-72
+82-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:37:23-69
+83                <category android:name="android.intent.category.BROWSABLE" />
+83-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:38:13-74
+83-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:38:23-71
+84            </intent-filter>
+85            <intent-filter>
+85-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:40:10-42:25
+86                <data android:scheme="@string/fb_login_protocol_scheme" />
+86-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:41:11-69
+86-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:41:17-66
+87            </intent-filter>
+88            <intent-filter>
+88-->[com.facebook.android:facebook-common:14.1.0] /Users/webastral/.gradle/caches/transforms-3/eecc98e37626abbc98240690c01b5d39/transformed/jetified-facebook-common-14.1.0/AndroidManifest.xml:39:13-48:29
+89                <action android:name="android.intent.action.VIEW" />
+89-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:36:13-65
+89-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:36:21-62
+90
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:37:13-72
+91-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:37:23-69
+92                <category android:name="android.intent.category.BROWSABLE" />
+92-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:38:13-74
+92-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:38:23-71
+93
+94                <data
+94-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:41:11-69
+95                    android:host="cct.com.music_stream"
+96                    android:scheme="fbconnect" />
+96-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:41:17-66
+97            </intent-filter>
+98        </activity>
+99
+100        <meta-data
+100-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:44:6-104
+101            android:name="com.facebook.sdk.ApplicationId"
+101-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:44:17-62
+102            android:value="@string/facebook_app_id" />
+102-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:44:63-102
+103        <meta-data
+103-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:45:5-107
+104            android:name="com.facebook.sdk.ClientToken"
+104-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:45:16-59
+105            android:value="@string/facebook_client_token" />
+105-->/Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/android/app/src/main/AndroidManifest.xml:45:60-105
+106
+107        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+107-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-111
+107-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-108
+108        <service
+108-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:19
+109            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+109-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-95
+110            android:exported="false" >
+110-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+111            <intent-filter>
+111-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
+112                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+112-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+112-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
+113            </intent-filter>
+114        </service>
+115
+116        <receiver
+116-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-30:20
+117            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+117-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-96
+118            android:exported="true"
+118-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
+119            android:permission="com.google.android.c2dm.permission.SEND" >
+119-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-73
+120            <intent-filter>
+120-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+121                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+121-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+121-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+122            </intent-filter>
+123        </receiver>
+124
+125        <meta-data
+125-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-34:36
+126            android:name="firebase_messaging_auto_init_enabled"
+126-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-64
+127            android:value="true" />
+127-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-33
+128        <meta-data
+128-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:32
+129            android:name="com.google.firebase.messaging.default_notification_channel_id"
+129-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-89
+130            android:value="" />
+130-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-29
+131        <meta-data
+131-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-40:47
+132            android:name="com.google.firebase.messaging.default_notification_color"
+132-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-84
+133            android:resource="@color/white" />
+133-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-44
+134        <meta-data
+134-->[:react-native-firebase_app] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:36
+135            android:name="app_data_collection_default_enabled"
+135-->[:react-native-firebase_app] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+136            android:value="true" />
+136-->[:react-native-firebase_app] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-33
+137
+138        <service
+138-->[:react-native-firebase_app] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:19
+139            android:name="com.google.firebase.components.ComponentDiscoveryService"
+139-->[:react-native-firebase_app] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-89
+140            android:directBootAware="true"
+140-->[com.google.firebase:firebase-common:20.0.0] /Users/webastral/.gradle/caches/transforms-3/f9eba4848384a28ac247304a35bfc2f5/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+141            android:exported="false" >
+141-->[com.google.firebase:firebase-firestore:24.0.1] /Users/webastral/.gradle/caches/transforms-3/62419d33ad109466ca2c2d97727f4b3c/transformed/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:19:13-37
+142            <meta-data
+142-->[:react-native-firebase_app] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:85
+143                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+143-->[:react-native-firebase_app] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-120
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[:react-native-firebase_app] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-82
+145            <meta-data
+145-->[com.google.firebase:firebase-firestore:24.0.1] /Users/webastral/.gradle/caches/transforms-3/62419d33ad109466ca2c2d97727f4b3c/transformed/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:20:13-22:85
+146                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+146-->[com.google.firebase:firebase-firestore:24.0.1] /Users/webastral/.gradle/caches/transforms-3/62419d33ad109466ca2c2d97727f4b3c/transformed/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:21:17-111
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[com.google.firebase:firebase-firestore:24.0.1] /Users/webastral/.gradle/caches/transforms-3/62419d33ad109466ca2c2d97727f4b3c/transformed/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:22:17-82
+148            <meta-data
+148-->[com.google.firebase:firebase-storage:20.0.0] /Users/webastral/.gradle/caches/transforms-3/63b6c5dacd750844ef669f123467424a/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+149                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+149-->[com.google.firebase:firebase-storage:20.0.0] /Users/webastral/.gradle/caches/transforms-3/63b6c5dacd750844ef669f123467424a/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+150                android:value="com.google.firebase.components.ComponentRegistrar" />
+150-->[com.google.firebase:firebase-storage:20.0.0] /Users/webastral/.gradle/caches/transforms-3/63b6c5dacd750844ef669f123467424a/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+151            <meta-data
+151-->[com.google.firebase:firebase-messaging:23.0.0] /Users/webastral/.gradle/caches/transforms-3/635f3c0a469011bb25ada98ed2463070/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+152                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+152-->[com.google.firebase:firebase-messaging:23.0.0] /Users/webastral/.gradle/caches/transforms-3/635f3c0a469011bb25ada98ed2463070/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+153                android:value="com.google.firebase.components.ComponentRegistrar" />
+153-->[com.google.firebase:firebase-messaging:23.0.0] /Users/webastral/.gradle/caches/transforms-3/635f3c0a469011bb25ada98ed2463070/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+154            <meta-data
+154-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/webastral/.gradle/caches/transforms-3/38908875a269475c591bff3ee052a79e/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+155                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+155-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/webastral/.gradle/caches/transforms-3/38908875a269475c591bff3ee052a79e/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+156                android:value="com.google.firebase.components.ComponentRegistrar" />
+156-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/webastral/.gradle/caches/transforms-3/38908875a269475c591bff3ee052a79e/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+157            <meta-data
+157-->[com.google.firebase:firebase-installations:17.0.0] /Users/webastral/.gradle/caches/transforms-3/5cfb7621a4f2635742a23672930a49b8/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+158                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+158-->[com.google.firebase:firebase-installations:17.0.0] /Users/webastral/.gradle/caches/transforms-3/5cfb7621a4f2635742a23672930a49b8/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+159                android:value="com.google.firebase.components.ComponentRegistrar" />
+159-->[com.google.firebase:firebase-installations:17.0.0] /Users/webastral/.gradle/caches/transforms-3/5cfb7621a4f2635742a23672930a49b8/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+160        </service>
+161
+162        <provider
+162-->[:react-native-firebase_app] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-24:38
+163            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+163-->[:react-native-firebase_app] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-88
+164            android:authorities="com.music_stream.reactnativefirebaseappinitprovider"
+164-->[:react-native-firebase_app] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-86
+165            android:exported="false"
+165-->[:react-native-firebase_app] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-37
+166            android:initOrder="99" /> <!-- The main service, handles playback, playlists and media buttons -->
+166-->[:react-native-firebase_app] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-35
+167        <service
+167-->[:react-native-track-player] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-22:19
+168            android:name="com.guichaguri.trackplayer.service.MusicService"
+168-->[:react-native-track-player] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-75
+169            android:enabled="true"
+169-->[:react-native-track-player] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-35
+170            android:exported="true" >
+170-->[:react-native-track-player] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-36
+171            <intent-filter>
+171-->[:react-native-track-player] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-21:29
+172                <action android:name="android.intent.action.MEDIA_BUTTON" />
+172-->[:react-native-track-player] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-77
+172-->[:react-native-track-player] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:25-74
+173            </intent-filter>
+174        </service> <!-- A receiver that will receive media buttons. Required on pre-lollipop devices -->
+175        <receiver
+175-->[:react-native-track-player] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-31:20
+176            android:name="androidx.media.session.MediaButtonReceiver"
+176-->[:react-native-track-player] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-70
+177            android:exported="true" >
+177-->[:react-native-track-player] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
+178            <intent-filter>
+178-->[:react-native-track-player] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-21:29
+179                <action android:name="android.intent.action.MEDIA_BUTTON" />
+179-->[:react-native-track-player] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-77
+179-->[:react-native-track-player] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:25-74
+180            </intent-filter>
+181        </receiver>
+182
+183        <provider
+183-->[:react-native-webview] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+184            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+184-->[:react-native-webview] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+185            android:authorities="com.music_stream.fileprovider"
+185-->[:react-native-webview] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+186            android:exported="false"
+186-->[:react-native-webview] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+187            android:grantUriPermissions="true" >
+187-->[:react-native-webview] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+188            <meta-data
+188-->[:react-native-webview] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:63
+189                android:name="android.support.FILE_PROVIDER_PATHS"
+189-->[:react-native-webview] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+190                android:resource="@xml/file_provider_paths" />
+190-->[:react-native-webview] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-60
+191        </provider>
+192        <provider
+192-->[:rn-fetch-blob] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-42:20
+193            android:name="com.RNFetchBlob.Utils.FileProvider"
+193-->[:rn-fetch-blob] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-62
+194            android:authorities="com.music_stream.provider"
+194-->[:rn-fetch-blob] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-60
+195            android:exported="false"
+195-->[:rn-fetch-blob] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-37
+196            android:grantUriPermissions="true" >
+196-->[:rn-fetch-blob] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-47
+197            <meta-data
+197-->[:react-native-webview] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:63
+198                android:name="android.support.FILE_PROVIDER_PATHS"
+198-->[:react-native-webview] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+199                android:resource="@xml/provider_paths" />
+199-->[:react-native-webview] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-60
+200        </provider>
+201
+202        <activity android:name="com.facebook.CustomTabMainActivity" />
+202-->[com.facebook.android:facebook-common:14.1.0] /Users/webastral/.gradle/caches/transforms-3/eecc98e37626abbc98240690c01b5d39/transformed/jetified-facebook-common-14.1.0/AndroidManifest.xml:34:9-71
+202-->[com.facebook.android:facebook-common:14.1.0] /Users/webastral/.gradle/caches/transforms-3/eecc98e37626abbc98240690c01b5d39/transformed/jetified-facebook-common-14.1.0/AndroidManifest.xml:34:19-68
+203        <!--
+204         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+205         with the application context. This config is merged in with the host app's manifest,
+206         but there can only be one provider with the same authority activated at any given
+207         point; so if the end user has two or more different apps that use Facebook SDK, only the
+208         first one will be able to use the provider. To work around this problem, we use the
+209         following placeholder in the authority to identify each host application as if it was
+210         a completely different provider.
+211        -->
+212        <provider
+212-->[com.facebook.android:facebook-core:14.1.0] /Users/webastral/.gradle/caches/transforms-3/99c879db0a5a75065db1289f6a414476/transformed/jetified-facebook-core-14.1.0/AndroidManifest.xml:41:9-44:40
+213            android:name="com.facebook.internal.FacebookInitProvider"
+213-->[com.facebook.android:facebook-core:14.1.0] /Users/webastral/.gradle/caches/transforms-3/99c879db0a5a75065db1289f6a414476/transformed/jetified-facebook-core-14.1.0/AndroidManifest.xml:42:13-70
+214            android:authorities="com.music_stream.FacebookInitProvider"
+214-->[com.facebook.android:facebook-core:14.1.0] /Users/webastral/.gradle/caches/transforms-3/99c879db0a5a75065db1289f6a414476/transformed/jetified-facebook-core-14.1.0/AndroidManifest.xml:43:13-72
+215            android:exported="false" />
+215-->[com.facebook.android:facebook-core:14.1.0] /Users/webastral/.gradle/caches/transforms-3/99c879db0a5a75065db1289f6a414476/transformed/jetified-facebook-core-14.1.0/AndroidManifest.xml:44:13-37
+216
+217        <receiver
+217-->[com.facebook.android:facebook-core:14.1.0] /Users/webastral/.gradle/caches/transforms-3/99c879db0a5a75065db1289f6a414476/transformed/jetified-facebook-core-14.1.0/AndroidManifest.xml:46:9-52:20
+218            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+218-->[com.facebook.android:facebook-core:14.1.0] /Users/webastral/.gradle/caches/transforms-3/99c879db0a5a75065db1289f6a414476/transformed/jetified-facebook-core-14.1.0/AndroidManifest.xml:47:13-86
+219            android:exported="false" >
+219-->[com.facebook.android:facebook-core:14.1.0] /Users/webastral/.gradle/caches/transforms-3/99c879db0a5a75065db1289f6a414476/transformed/jetified-facebook-core-14.1.0/AndroidManifest.xml:48:13-37
+220            <intent-filter>
+220-->[com.facebook.android:facebook-core:14.1.0] /Users/webastral/.gradle/caches/transforms-3/99c879db0a5a75065db1289f6a414476/transformed/jetified-facebook-core-14.1.0/AndroidManifest.xml:49:13-51:29
+221                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+221-->[com.facebook.android:facebook-core:14.1.0] /Users/webastral/.gradle/caches/transforms-3/99c879db0a5a75065db1289f6a414476/transformed/jetified-facebook-core-14.1.0/AndroidManifest.xml:50:17-95
+221-->[com.facebook.android:facebook-core:14.1.0] /Users/webastral/.gradle/caches/transforms-3/99c879db0a5a75065db1289f6a414476/transformed/jetified-facebook-core-14.1.0/AndroidManifest.xml:50:25-92
+222            </intent-filter>
+223        </receiver>
+224        <receiver
+224-->[com.facebook.android:facebook-core:14.1.0] /Users/webastral/.gradle/caches/transforms-3/99c879db0a5a75065db1289f6a414476/transformed/jetified-facebook-core-14.1.0/AndroidManifest.xml:53:9-59:20
+225            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+225-->[com.facebook.android:facebook-core:14.1.0] /Users/webastral/.gradle/caches/transforms-3/99c879db0a5a75065db1289f6a414476/transformed/jetified-facebook-core-14.1.0/AndroidManifest.xml:54:13-118
+226            android:exported="false" >
+226-->[com.facebook.android:facebook-core:14.1.0] /Users/webastral/.gradle/caches/transforms-3/99c879db0a5a75065db1289f6a414476/transformed/jetified-facebook-core-14.1.0/AndroidManifest.xml:55:13-37
+227            <intent-filter>
+227-->[com.facebook.android:facebook-core:14.1.0] /Users/webastral/.gradle/caches/transforms-3/99c879db0a5a75065db1289f6a414476/transformed/jetified-facebook-core-14.1.0/AndroidManifest.xml:56:13-58:29
+228                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+228-->[com.facebook.android:facebook-core:14.1.0] /Users/webastral/.gradle/caches/transforms-3/99c879db0a5a75065db1289f6a414476/transformed/jetified-facebook-core-14.1.0/AndroidManifest.xml:57:17-103
+228-->[com.facebook.android:facebook-core:14.1.0] /Users/webastral/.gradle/caches/transforms-3/99c879db0a5a75065db1289f6a414476/transformed/jetified-facebook-core-14.1.0/AndroidManifest.xml:57:25-100
+229            </intent-filter>
+230        </receiver>
+231        <receiver
+231-->[com.google.firebase:firebase-messaging:23.0.0] /Users/webastral/.gradle/caches/transforms-3/635f3c0a469011bb25ada98ed2463070/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+232            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+232-->[com.google.firebase:firebase-messaging:23.0.0] /Users/webastral/.gradle/caches/transforms-3/635f3c0a469011bb25ada98ed2463070/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+233            android:exported="true"
+233-->[com.google.firebase:firebase-messaging:23.0.0] /Users/webastral/.gradle/caches/transforms-3/635f3c0a469011bb25ada98ed2463070/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+234            android:permission="com.google.android.c2dm.permission.SEND" >
+234-->[com.google.firebase:firebase-messaging:23.0.0] /Users/webastral/.gradle/caches/transforms-3/635f3c0a469011bb25ada98ed2463070/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+235            <intent-filter>
+235-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+236                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+236-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+236-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+237            </intent-filter>
+238        </receiver>
+239        <!--
+240             FirebaseMessagingService performs security checks at runtime,
+241             but set to not exported to explicitly avoid allowing another app to call it.
+242        -->
+243        <service
+243-->[com.google.firebase:firebase-messaging:23.0.0] /Users/webastral/.gradle/caches/transforms-3/635f3c0a469011bb25ada98ed2463070/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+244            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+244-->[com.google.firebase:firebase-messaging:23.0.0] /Users/webastral/.gradle/caches/transforms-3/635f3c0a469011bb25ada98ed2463070/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+245            android:directBootAware="true"
+245-->[com.google.firebase:firebase-messaging:23.0.0] /Users/webastral/.gradle/caches/transforms-3/635f3c0a469011bb25ada98ed2463070/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+246            android:exported="false" >
+246-->[com.google.firebase:firebase-messaging:23.0.0] /Users/webastral/.gradle/caches/transforms-3/635f3c0a469011bb25ada98ed2463070/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+247            <intent-filter android:priority="-500" >
+247-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
+248                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+248-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+248-->[:react-native-firebase_messaging] /Users/webastral/Desktop/AfroMelodies-updated/AfroMelodies/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
+249            </intent-filter>
+250        </service>
+251
+252        <activity
+252-->[com.google.android.gms:play-services-auth:20.1.0] /Users/webastral/.gradle/caches/transforms-3/047c4ae9b2f9e877b0c0c43b0bc14779/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:23:9-27:75
+253            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+253-->[com.google.android.gms:play-services-auth:20.1.0] /Users/webastral/.gradle/caches/transforms-3/047c4ae9b2f9e877b0c0c43b0bc14779/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:24:13-93
+254            android:excludeFromRecents="true"
+254-->[com.google.android.gms:play-services-auth:20.1.0] /Users/webastral/.gradle/caches/transforms-3/047c4ae9b2f9e877b0c0c43b0bc14779/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:25:13-46
+255            android:exported="false"
+255-->[com.google.android.gms:play-services-auth:20.1.0] /Users/webastral/.gradle/caches/transforms-3/047c4ae9b2f9e877b0c0c43b0bc14779/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:26:13-37
+256            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+256-->[com.google.android.gms:play-services-auth:20.1.0] /Users/webastral/.gradle/caches/transforms-3/047c4ae9b2f9e877b0c0c43b0bc14779/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:27:13-72
+257        <!--
+258            Service handling Google Sign-In user revocation. For apps that do not integrate with
+259            Google Sign-In, this service will never be started.
+260        -->
+261        <service
+261-->[com.google.android.gms:play-services-auth:20.1.0] /Users/webastral/.gradle/caches/transforms-3/047c4ae9b2f9e877b0c0c43b0bc14779/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:33:9-37:51
+262            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+262-->[com.google.android.gms:play-services-auth:20.1.0] /Users/webastral/.gradle/caches/transforms-3/047c4ae9b2f9e877b0c0c43b0bc14779/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:34:13-89
+263            android:exported="true"
+263-->[com.google.android.gms:play-services-auth:20.1.0] /Users/webastral/.gradle/caches/transforms-3/047c4ae9b2f9e877b0c0c43b0bc14779/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:35:13-36
+264            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+264-->[com.google.android.gms:play-services-auth:20.1.0] /Users/webastral/.gradle/caches/transforms-3/047c4ae9b2f9e877b0c0c43b0bc14779/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:36:13-107
+265            android:visibleToInstantApps="true" />
+265-->[com.google.android.gms:play-services-auth:20.1.0] /Users/webastral/.gradle/caches/transforms-3/047c4ae9b2f9e877b0c0c43b0bc14779/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:37:13-48
+266
+267        <activity
+267-->[com.google.android.gms:play-services-base:18.0.1] /Users/webastral/.gradle/caches/transforms-3/2350cbd4b31470062fa9e147e578069e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+268            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+268-->[com.google.android.gms:play-services-base:18.0.1] /Users/webastral/.gradle/caches/transforms-3/2350cbd4b31470062fa9e147e578069e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+269            android:exported="false"
+269-->[com.google.android.gms:play-services-base:18.0.1] /Users/webastral/.gradle/caches/transforms-3/2350cbd4b31470062fa9e147e578069e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+270            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+270-->[com.google.android.gms:play-services-base:18.0.1] /Users/webastral/.gradle/caches/transforms-3/2350cbd4b31470062fa9e147e578069e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+271
+272        <provider
+272-->[com.google.firebase:firebase-common:20.0.0] /Users/webastral/.gradle/caches/transforms-3/f9eba4848384a28ac247304a35bfc2f5/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+273            android:name="com.google.firebase.provider.FirebaseInitProvider"
+273-->[com.google.firebase:firebase-common:20.0.0] /Users/webastral/.gradle/caches/transforms-3/f9eba4848384a28ac247304a35bfc2f5/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+274            android:authorities="com.music_stream.firebaseinitprovider"
+274-->[com.google.firebase:firebase-common:20.0.0] /Users/webastral/.gradle/caches/transforms-3/f9eba4848384a28ac247304a35bfc2f5/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+275            android:directBootAware="true"
+275-->[com.google.firebase:firebase-common:20.0.0] /Users/webastral/.gradle/caches/transforms-3/f9eba4848384a28ac247304a35bfc2f5/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+276            android:exported="false"
+276-->[com.google.firebase:firebase-common:20.0.0] /Users/webastral/.gradle/caches/transforms-3/f9eba4848384a28ac247304a35bfc2f5/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+277            android:initOrder="100" />
+277-->[com.google.firebase:firebase-common:20.0.0] /Users/webastral/.gradle/caches/transforms-3/f9eba4848384a28ac247304a35bfc2f5/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+278
+279        <meta-data
+279-->[com.google.android.gms:play-services-basement:18.0.0] /Users/webastral/.gradle/caches/transforms-3/4d6f52dff7cd71b90893bcce46d0bd27/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+280            android:name="com.google.android.gms.version"
+280-->[com.google.android.gms:play-services-basement:18.0.0] /Users/webastral/.gradle/caches/transforms-3/4d6f52dff7cd71b90893bcce46d0bd27/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+281            android:value="@integer/google_play_services_version" />
+281-->[com.google.android.gms:play-services-basement:18.0.0] /Users/webastral/.gradle/caches/transforms-3/4d6f52dff7cd71b90893bcce46d0bd27/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+282
+283        <service
+283-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/webastral/.gradle/caches/transforms-3/88c757128f81ffa91d0d97c429be158f/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+284            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+284-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/webastral/.gradle/caches/transforms-3/88c757128f81ffa91d0d97c429be158f/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+285            android:exported="false" >
+285-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/webastral/.gradle/caches/transforms-3/88c757128f81ffa91d0d97c429be158f/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+286            <meta-data
+286-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/webastral/.gradle/caches/transforms-3/88c757128f81ffa91d0d97c429be158f/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+287                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+287-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/webastral/.gradle/caches/transforms-3/88c757128f81ffa91d0d97c429be158f/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+288                android:value="cct" />
+288-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/webastral/.gradle/caches/transforms-3/88c757128f81ffa91d0d97c429be158f/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+289        </service>
+290        <service
+290-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/webastral/.gradle/caches/transforms-3/f47de00159a177e11ee700f30067bd62/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+291            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+291-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/webastral/.gradle/caches/transforms-3/f47de00159a177e11ee700f30067bd62/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+292            android:exported="false"
+292-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/webastral/.gradle/caches/transforms-3/f47de00159a177e11ee700f30067bd62/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+293            android:permission="android.permission.BIND_JOB_SERVICE" >
+293-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/webastral/.gradle/caches/transforms-3/f47de00159a177e11ee700f30067bd62/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+294        </service>
+295
+296        <receiver
+296-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/webastral/.gradle/caches/transforms-3/f47de00159a177e11ee700f30067bd62/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+297            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+297-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/webastral/.gradle/caches/transforms-3/f47de00159a177e11ee700f30067bd62/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+298            android:exported="false" />
+298-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/webastral/.gradle/caches/transforms-3/f47de00159a177e11ee700f30067bd62/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+299    </application>
+300
+301</manifest>

@@ -1,0 +1,6 @@
+module Pods_music_stream_music_streamTests {
+  umbrella header "Pods-music_stream-music_streamTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

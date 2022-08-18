@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "469412287743",
+    "project_id": "afro-melodies",
+    "storage_bucket": "afro-melodies.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469412287743:android:1553a01aac569b0118e8ca",
+        "android_client_info": {
+          "package_name": "com.music_stream"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469412287743-366h3pti2ura5gq1gpngu6ufsctlgsif.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.music_stream",
+            "certificate_hash": "0ce79b372aacb50d13d804d7cf1cf15534d936cb"
+          }
+        },
+        {
+          "client_id": "469412287743-d4d05h0kg42l3s3538vsk8u19e5fqvee.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.music_stream",
+            "certificate_hash": "a2c4fda008db5f7172b49f7e48d3515bd93efa8f"
+          }
+        },
+        {
+          "client_id": "469412287743-ammn7u4qg5br1q2d56b2d655sn82trqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApV15GqJhaKQZBaNfiaV3WmUY_o9QSYzw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469412287743-ammn7u4qg5br1q2d56b2d655sn82trqd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "469412287743-57j7k4tvfm9htiokc124s3hjlabl80vl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.music_stream"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
